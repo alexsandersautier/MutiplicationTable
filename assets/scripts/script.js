@@ -7,7 +7,7 @@ const calculate = () =>{
     values.appendChild(title)
     for(let i = 0; i <= end.value; i++){
         const p = document.createElement('p')
-        p.innerText = `${i} x ${begin.value} = ${i * begin.value}`
+        p.innerText = `${begin.value} X ${i} = ${i * begin.value}`
         values.appendChild(p)
     }
 }
